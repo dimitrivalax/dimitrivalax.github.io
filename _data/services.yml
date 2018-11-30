@@ -1,4 +1,10 @@
 title: Services
-service1: Conception & Réalisation
-service2: Conseil
-service3: Formation
+service1: 
+  title: Conception & Réalisation
+  content: Vous avez une idée, un besoin ou des specifications détaillées ? Je vous aide du processus d'idéation à la conception et à la réalisation de votre projet/produit.
+service2: 
+  title: Conseil
+  content: Vous avez un problème, une question, un manque d'expertise ? Je vous aide sur une courte période ou de manière plus sporadique sur une problématique précise.
+service3: 
+  title: Formation
+  content: Vous avez envie de faire monter en compétence une équipe ou simplement vous ouvrir à une technologie ? Je vous forme sur quelques jours ou vous présente une technologie.
