@@ -1,11 +1,12 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Ouibus
+subtitle: Application grand public
 layout: default
+store: https://itunes.apple.com/fr/app/ouibus-voyages-en-bus/id1047652194
 modal-id: 1
 date: 2014-07-18
 img: dreams.png
-thumbnail: dreams-thumbnail.png
+thumbnail: ouibus-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

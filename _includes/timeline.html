@@ -13,7 +13,15 @@
 
                             
                           {% for item in site.data.timeline %}
-                        <li>
+
+                            {% if item.inverted == true %}
+                            <li class="timeline-inverted">
+                            {% endif %}
+                            {% if item.inverted == false %}
+                            <li >
+                            {% endif %}
+
+                        
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="{{ item.imageUrl }}" alt="">
                             </div>
