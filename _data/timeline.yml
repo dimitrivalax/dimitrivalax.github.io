@@ -1,14 +1,9 @@
 
-
-
-
-
- 
-- title: Kay Garland
-  date: 1
-  body1: Lead Designer
-  tech: Lead Designer
-  imageUrl: img/logos/envato.jpg
+- title: Stimio - datalogger
+  date: Février 2019
+  body1: Réalisation d'une application android de configuration d'objet intelligent (STIM-MOD)
+  tech: Android, BLE
+  imageUrl: img/timeline/stimio.png
 - title: Kay Garland
   date: 1
   body1: Lead Designer
