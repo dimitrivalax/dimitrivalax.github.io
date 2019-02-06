@@ -1,11 +1,12 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Cyber Plus
+subtitle: Banque Populaire
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+store: https://itunes.apple.com/fr/app/banque-populaire/id408871253
+modal-id: 3
+date: 2014-07-16
+img: golden.png
+thumbnail: cyber-plus-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

@@ -1,11 +1,12 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Colibee Connect
+subtitle: Colibee
 layout: default
+store: https://itunes.apple.com/us/app/colibee-connect/id1157493550#?platform=iphone
 modal-id: 3
 date: 2014-07-16
 img: golden.png
-thumbnail: golden-thumbnail.png
+thumbnail: colibee-connect-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
