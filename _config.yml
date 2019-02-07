@@ -11,37 +11,27 @@ button: Si tu veux en savoir plus ?
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
 
-- name: Larry Parker
-  pic: avatar_1
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Macbook Pro
+  pic: macbook
+  position: Fidèle coéquipier
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: google-plus
+      url: #
+
+- name: Dimitri Valax
+  pic: dimitri
+  position: moi même !
+  social:
+    - title: twitter
+      url: dimitri
+    - title: facebook
+      url: #
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
