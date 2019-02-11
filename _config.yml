@@ -11,18 +11,6 @@ button: Si tu veux en savoir plus ?
 
 # Team names, titles and social links
 people:
-
-- name: Macbook Pro
-  pic: macbook
-  position: Fidèle coéquipier
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 - name: Dimitri Valax
   pic: dimitri
   position: moi même !
@@ -33,6 +21,16 @@ people:
       url: #
     - title: linkedin
       url: #
+- name: Lune bleue
+  pic: lune-bleue
+  position: positive transition
+
+- name: Happy dev
+  pic: happy-dev
+  position: Réseau d'indépendants
+  social:
+    - title: ici
+      url: https://www.happy-dev.fr/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
