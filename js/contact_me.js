@@ -1,11 +1,11 @@
-$(function() {
+$(function () {
 
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        submitError: function ($form, event, errors) {
             // additional error messages or events
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -17,18 +17,15 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
-                data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
-                },
-                cache: false,
-                success: function() {
-                    // Success message
+
+            var xhr = new XMLHttpRequest();
+            var url = "https://doquf2zvnc.execute-api.eu-west-3.amazonaws.com/dev/sendmail";
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var json = JSON.parse(xhr.responseText);
+                    console.log("response : " + json.statusCode + ", " + json.body);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -36,11 +33,7 @@ $(function() {
                         .append("<strong>Your message has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
-
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
-                error: function() {
+                } else if (xhr.status === 500 || xhr.status === 400 || xhr.status === 401 || xhr.status === 403) {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -49,15 +42,65 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
-            })
+                }
+            };
+            var data = JSON.stringify({
+                "name": name,
+                "phone": phone,
+                "email": email,
+                "message": message
+            }, );
+            xhr.send(data);
+
+            //             $.ajax({
+            //                 "url": "https://doquf2zvnc.execute-api.eu-west-3.amazonaws.com/dev/sendmail",
+            //                 "type": "POST",
+            //                 "data": {
+            //                     "name": name,
+            //                     "phone": phone,
+            //                     "email": email,
+            //                     "message": message
+            //                 },
+            //                 "crossDomain": true,
+            //                 'dataType': "jsonp",
+            //                 "headers": {
+            //                     "accept": "application/json",
+            //                     "Access-Control-Allow-Origin":"*"
+            //                 },
+            // //                 content-type	
+            // // application/json
+            //                 "cache": false,
+            //                 "success": function() {
+            //                     // Success message
+            //                     $('#success').html("<div class='alert alert-success'>");
+            //                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            //                         .append("</button>");
+            //                     $('#success > .alert-success')
+            //                         .append("<strong>Your message has been sent. </strong>");
+            //                     $('#success > .alert-success')
+            //                         .append('</div>');
+
+            //                     //clear all fields
+            //                     $('#contactForm').trigger("reset");
+            //                 },
+            //                 "error": function() {
+            //                     // Fail message
+            //                     $('#success').html("<div class='alert alert-danger'>");
+            //                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            //                         .append("</button>");
+            //                     $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+            //                     $('#success > .alert-danger').append('</div>');
+            //                     //clear all fields
+            //                     $('#contactForm').trigger("reset");
+            //                 },
+            //             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function (e) {
         e.preventDefault();
         $(this).tab("show");
     });
@@ -65,6 +108,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success').html('');
 });
