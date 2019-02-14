@@ -11,26 +11,25 @@ button: Si tu veux en savoir plus ?
 
 # Team names, titles and social links
 people:
+- name: Lune bleue
+  pic: lune-bleue
+  position: positive transition
 - name: Dimitri Valax
   pic: dimitri
   position: moi même !
   social:
-    - title: twitter
-      url: dimitri
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
-- name: Lune bleue
-  pic: lune-bleue
-  position: positive transition
-
+      url: https://www.linkedin.com/in/dimitri-valax-01b07b6
+    - title: envelope
+      url: mailto:dvalax.pro@gmail.com    
 - name: Happy dev
   pic: happy-dev
   position: Réseau d'indépendants
   social:
-    - title: ici
+    - title: laptop
       url: https://www.happy-dev.fr/
+    - title: facebook
+      url: https://www.facebook.com/HappydevToulouse/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
