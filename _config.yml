@@ -1,53 +1,49 @@
 url: https://dimitrivalax.github.io/
-baseurl: 
+baseurl:
 
 # Site settings
 title: Dimitri Valax
 email: dvalax.pro@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 lead: Bienvenue !
 heading: Je suis développeur Mobile & Web Full-stack
 button: Si tu veux en savoir plus ?
 
 # Team names, titles and social links
 people:
-- name: Lune bleue
-  pic: lune-bleue
-  position: positive transition
-- name: Dimitri Valax
-  pic: dimitri
-  position: moi même !
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/dimitri-valax-01b07b6
-    - title: envelope
-      url: mailto:dvalax.pro@gmail.com    
-- name: Happy dev
-  pic: happy-dev
-  position: Réseau d'indépendants
-  social:
-    - title: laptop
-      url: https://www.happy-dev.fr/
-    - title: facebook
-      url: https://www.facebook.com/HappydevToulouse/
+  - name: Lune bleue
+    pic: lune-bleue
+    position: positive transition
+  - name: Dimitri Valax
+    pic: dimitri
+    position: moi même !
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/dimitri-valax-01b07b6
+      - title: envelope
+        url: mailto:dvalax.pro@gmail.com
+  - name: Happy dev
+    pic: happy-dev
+    position: Réseau d'indépendants
+    social:
+      - title: laptop
+        url: https://www.happy-dev.fr/
+      - title: facebook
+        url: https://www.facebook.com/HappydevToulouse/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/dimitri-valax-01b07b6
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/dimitrivalax
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/dimitrivalax
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 15 rue gabriel péri
+  - line: 31000 toulouse
 
 # Build settings
 markdown: kramdown

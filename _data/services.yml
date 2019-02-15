@@ -1,10 +1,14 @@
 title: Services
-service1: 
+subtitle: Développement, conseil, formation et même mise en production d'application mobile, je vous accompagne tout au long de votre numérisation.
+service1:
   title: Conception & Réalisation
   content: Vous avez une idée, un besoin ou des specifications détaillées ? Je vous aide du processus d'idéation à la conception et à la réalisation de votre projet/produit.
-service2: 
+service2:
   title: Conseil
   content: Vous avez un problème, une question, un manque d'expertise ? Je vous aide sur une courte période ou de manière plus sporadique sur une problématique précise.
-service3: 
+service3:
   title: Formation
   content: Vous avez envie de faire monter en compétence une équipe ou simplement vous ouvrir à une technologie ? Je vous forme sur quelques jours ou vous présente une technologie sur une période plus courte.
+service4:
+  title: Mise en production
+  content: Vous ne savez pas comment mettre votre application mobile (IOS, Androis) dans les stores ? C'est normal, c'est incompréhensible ! Grace à mon expérience, je peux vous aider à y voir plus clair ou bien le faire à votre place, c'est vous qui décidez !
