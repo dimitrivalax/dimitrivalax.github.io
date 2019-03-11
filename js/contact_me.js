@@ -49,7 +49,8 @@ $(function () {
                 "phone": phone,
                 "email": email,
                 "message": message
-            }, );
+            }
+         );
             xhr.send(data);
 
             //             $.ajax({
