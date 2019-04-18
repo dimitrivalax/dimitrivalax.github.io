@@ -1,4 +1,10 @@
 
+- title: N-Vibe 
+  date: Mars-avril 2019
+  body1: Réalisation d'une application de navigation pour personnes aveugles et malvoyantes
+  tech: Android, Mapbox, BLE
+  imageUrl: img/timeline/n-vibe.png
+  inverted: true
 - title: Stimio - datalogger
   date: Février 2019
   body1: Réalisation d'une application android de configuration d'objet intelligent (STIM-MOD)
