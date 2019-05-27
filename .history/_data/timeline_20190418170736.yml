@@ -1,10 +1,4 @@
 
-- title: Oonop 
-  date: Avril-Mai 2019
-  body1: Réalisation de l'application Livre blanc de paie via happy dev paris
-  tech: Vue.js, Nuxt.
-  imageUrl: img/timeline/logo-oonops.jpg
-  inverted: false
 - title: N-Vibe 
   date: Mars-avril 2019
   body1: Réalisation d'une application de navigation pour personnes aveugles et malvoyantes

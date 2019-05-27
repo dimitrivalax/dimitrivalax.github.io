@@ -5,7 +5,7 @@
   tech: Vue.js, Nuxt.
   imageUrl: img/timeline/logo-oonops.jpg
   inverted: false
-- title: N-Vibe 
+  - title: N-Vibe 
   date: Mars-avril 2019
   body1: Réalisation d'une application de navigation pour personnes aveugles et malvoyantes
   tech: Android, Mapbox, BLE
