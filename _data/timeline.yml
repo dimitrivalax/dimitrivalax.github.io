@@ -1,4 +1,10 @@
 
+- title: Cesi 
+  date: Juin 2019
+  body1: Travaux pratiques Android & Ionic
+  tech: Android, Ionic.
+  imageUrl: img/timeline/cesi.jpg
+  inverted: true
 - title: Oonop 
   date: Avril-Mai 2019
   body1: Réalisation de l'application Livre blanc de paie via happy dev paris
