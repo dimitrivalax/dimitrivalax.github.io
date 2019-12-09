@@ -1,5 +1,17 @@
 
-- title: Cesi 
+  - title: SIMSOFT 
+  date: Novembre-Décembre 2019
+  body1: Développemnt d'un lecteur vidéo augmenté pour l'industrie 4.0
+  tech: Angular.
+  imageUrl: img/timeline/simsoft.jpg
+  inverted: true
+  - title: Blockchain My Art 
+  date: Septembre-Novembre 2019
+  body1: Développement d'une solution de paiement pour les festivals basé sur la blockchain.
+  tech: React-Native, Node.js.
+  imageUrl: img/timeline/bma.jpg
+  inverted: false
+  - title: Cesi 
   date: Juin 2019
   body1: Travaux pratiques Android & Ionic
   tech: Android, Ionic.
