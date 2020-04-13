@@ -501,6 +501,9 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
+}
+
+.timeline>li .timeline-image.yellow {
     background-color: #{{ site.data.template.color.primary }};
 }
 
