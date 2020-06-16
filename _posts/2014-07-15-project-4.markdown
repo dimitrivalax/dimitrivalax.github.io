@@ -2,7 +2,7 @@
 title: NOWAVE
 subtitle: Site Web
 layout: default
-store: https://nowave.io/
+store: https://www.kisskissbankbank.com/fr/projects/nowave
 modal-id: 3
 date: 2014-07-16
 img: golden.png
