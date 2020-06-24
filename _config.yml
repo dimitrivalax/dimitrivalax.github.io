@@ -13,7 +13,14 @@ button: Tu veux en savoir plus ?
 people:
   - name: Lune bleue
     pic: lune-bleue
-    position: positive transition
+    position: positive transition 
+    social:
+      - title: laptop
+        url: https://lunebleue.coop/
+      - title: linkedin
+        url: https://www.linkedin.com/company/scic-lune-bleue/
+      - title: facebook
+        url: https://www.facebook.com/lunebleue.toulouse/
   - name: Dimitri Valax
     pic: dimitri
     position: moi même !
