@@ -12,7 +12,7 @@ button: Tu veux en savoir plus ?
 # Team names, titles and social links
 people:
   - name: Lune bleue
-    pic: lune-bleue
+    pic: lune-bleue-rose
     position: positive transition 
     social:
       - title: laptop
