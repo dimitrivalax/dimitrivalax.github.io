@@ -1,5 +1,11 @@
+- title: SESAME - Entreprendre Pour Apprendre 
+  date: Septembre 2020
+  body1: Développement d'un outil de CRM pour l'association "Entreprendre pour apprendre Grand-Est". Visualiser, créer, éditer les partenaires de l'association.
+  tech: Vue.js (NUXT.js), Vue Material, Mapbox, Firebase...
+  imageUrl: img/timeline/kitus.png
+  inverted: false
 - title: KITUS 
-  date: Janvier 2019
+  date: Janvier - Mars 2020
   body1: Développement d'une solution de gestion de réserves pour Toulouse Carrelages (Application mobile, backoffice)
   tech: Nuxt.js, Vue.js, PWA, Firebase.
   imageUrl: img/timeline/kitus.png
