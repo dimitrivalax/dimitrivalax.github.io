@@ -1,0 +1,5 @@
+[{
+	"relation": ["delegate_permission/common.handle_all_urls"],
+	"target" : { "namespace": "android_app", "package_name": "app.cinetwork.live",
+				 "sha256_cert_fingerprints": ["BE:A0:D3:DC:91:34:C8:34:A1:AA:32:66:96:39:5C:61:A2:67:82:30:F5:F9:1A:5B:ED:D4:41:BA:DD:F2:06:9C"] }
+  }]
