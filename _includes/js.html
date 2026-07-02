@@ -10,6 +10,10 @@
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
     <!-- Contact Form JavaScript -->
+    <script>
+      window.CONTACT_FORM_URL = "{{ site.contact_form_url }}";
+      window.SUPABASE_ANON_KEY = "{{ site.supabase_anon_key }}";
+    </script>
     <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
 

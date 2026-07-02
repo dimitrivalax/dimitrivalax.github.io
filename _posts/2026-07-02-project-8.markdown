@@ -1,0 +1,16 @@
+---
+title: SkyBreathe Onboard
+subtitle: Application iOS
+layout: default
+store: https://apps.apple.com/fr/app/skybreathe-myfuelcoach/id1128399296
+modal-id: 8
+date: 2026-07-02
+img: skybreathe-onboard-thumbnail.png
+thumbnail: skybreathe-onboard-thumbnail.png
+alt: SkyBreathe Onboard
+project-date: 2026
+client: OpenAirlines
+category: Mobile Development
+description: Application mobile SkyBreathe Onboard sur l'App Store.
+
+---

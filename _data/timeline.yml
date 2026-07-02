@@ -1,9 +1,87 @@
-- title: SESAME - Entreprendre Pour Apprendre 
-  date: Septembre 2020
-  body1: Développement d'un outil de CRM pour l'association "Entreprendre pour apprendre Grand-Est". Visualiser, créer, éditer les partenaires de l'association.
-  tech: Vue.js (NUXT.js), Vue Material, Mapbox, Firebase...
-  imageUrl: img/timeline/kitus.png
+- title: Hydriq Cloud
+  date: Janvier 2026 - En cours
+  body1: Développement d'une solution de mesure de débit et de qualité de l'eau avec application mobile PWA offline et backoffice.
+  tech: TypeScript, React, Next.js, Firebase, Web Bluetooth, PWA.
+  imageUrl: img/timeline/hydriq.png
   inverted: false
+- title: Commune Plus
+  date: Décembre 2025 - En cours
+  body1: Développement d'une solution SaaS de communication entre mairies et habitant·es (mobile + backoffice + landing page).
+  tech: TypeScript, Vue, Nuxt, Ionic, Firebase.
+  imageUrl: img/timeline/commune-plus.png
+  inverted: true
+- title: Territoire en Transition
+  date: Juin 2025 - Décembre 2025
+  body1: Développement de la plateforme Territoire en Transition (startup d'État beta.gouv / ADEME).
+  tech: TypeScript, React, Next.js, Nest.js, Supabase, PostgreSQL, Koyeb.
+  imageUrl: img/timeline/tet.png
+  inverted: false
+- title: WaZaï
+  date: Mars 2025 - Décembre 2025
+  body1: Développement d'une solution e-commerce avec backend Medusa et storefront Next.js.
+  tech: TypeScript, React, Next.js, Medusa, PostgreSQL, Railway.
+  imageUrl: img/timeline/tshirtia.png
+  inverted: true
+- title: OpenAirlines
+  date: Octobre 2024 - Février 2025
+  body1: Développement de l'application mobile SkyBreathe OnBoard.
+  tech: TypeScript, Angular, Ionic, NgRx, Jest.
+  imageUrl: img/timeline/openairlines.png
+  inverted: false
+- title: Vetonomy
+  date: Avril 2024 - Septembre 2024
+  body1: Tech lead sur le PIM, l'application mobile grand public et l'API Vetonomy.
+  tech: TypeScript, React, Next.js, Ionic, Node.js, Express, PostgreSQL, AWS, Cypress, Jest.
+  imageUrl: img/timeline/vetonomy.png
+  inverted: true
+- title: Lowat
+  date: Juillet 2023
+  body1: Amélioration des performances de chargement des composants UI.
+  tech: React 18, CSS.
+  imageUrl: img/timeline/lowatt.png
+  inverted: false
+- title: Cinetwork
+  date: Janvier 2022 - Février 2024
+  body1: Développement mobile hybride, API et nouvelles fonctionnalités web, avec mise en place de tests E2E.
+  tech: Vue 3, Ionic, Node.js, Express, AWS, MongoDB, Cypress.
+  imageUrl: img/timeline/cinetwork.svg
+  inverted: true
+- title: Beecome
+  date: Décembre 2021
+  body1: Développement du back-office de l'application Memory.
+  tech: React.js, Firebase.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: false
+- title: Théâtre du Grand Rond
+  date: Novembre 2021
+  body1: Développement du back-office et du back-end pour une application de sélection de spectacles.
+  tech: Vue.js, Nuxt, Node.js, MongoDB.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: true
+- title: So.market
+  date: Septembre 2021 - Octobre 2021
+  body1: Développement front-end, back-office et back-end d'une application e-commerce.
+  tech: Vue.js, Nuxt, Stripe, Node.js, Elasticsearch.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: false
+- title: Doinsport
+  date: Mai 2021 - Septembre 2021
+  body1: Tech lead sur le développement d'une application mobile hybride en marque blanche.
+  tech: Ionic 5, Angular 10, Stripe, iOS, Android, Scrum.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: true
+- title: Airbus
+  date: Octobre 2020 - Mai 2021
+  body1: Développement d'une plateforme de gestion de flotte d'objets connectés (IoT).
+  tech: Vue.js, Python, AWS, Serverless.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: false
+- title: SESAME - Entreprendre Pour Apprendre
+  date: Septembre 2020 - Octobre 2020
+  body1: Développement d'un outil CRM pour l'association Entreprendre Pour Apprendre Grand-Est.
+  tech: Vue.js, Nuxt.js, Vue Material, Mapbox, Firebase.
+  imageUrl: img/timeline/n-vibe.svg
+  inverted: true
 - title: KITUS 
   date: Janvier - Mars 2020
   body1: Développement d'une solution de gestion de réserves pour Toulouse Carrelages (Application mobile, backoffice)

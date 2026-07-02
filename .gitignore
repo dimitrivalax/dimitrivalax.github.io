@@ -37,3 +37,8 @@ Icon
 .Trashes
 
 .history
+
+# Supabase local dev
+.env
+supabase/.branches
+supabase/.temp

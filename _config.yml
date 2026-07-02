@@ -4,6 +4,7 @@ baseurl:
 # Site settings
 title: Dimitri Valax
 email: dvalax.pro@gmail.com
+
 description: 'Je suis développeur Mobile & Web Full-stack. mes compétences sont HTML CSS, javascript, PWA, Angular, React, Node.js, Ionic, Android, IOS'
 lead: Bienvenue !
 heading: Je suis développeur Mobile & Web Full-stack
@@ -11,39 +12,19 @@ button: Tu veux en savoir plus ?
 
 # Team names, titles and social links
 people:
-  - name: Lune bleue
-    pic: lune-bleue-rose
-    position: Echanger, travailler et se restaurer !!!
-    social:
-      - title: laptop
-        url: https://lunebleue.coop/
-      - title: linkedin
-        url: https://www.linkedin.com/company/scic-lune-bleue/
-      - title: facebook
-        url: https://www.facebook.com/lunebleue.toulouse/
   - name: Dimitri Valax
     pic: dimitri
     position: moi même !
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/dimitri-valax-01b07b6
+        url: https://www.linkedin.com/in/dimitri-valax/
       - title: envelope
-        url: mailto:dvalax.pro@gmail.com
-  - name: Happy dev
-    pic: happy-dev
-    position: Réseau d'indépendants
-    social:
-      - title: laptop
-        url: https://www.happy-dev.fr/
-      - title: facebook
-        url: https://www.facebook.com/HappydevToulouse/
+        url: mailto:dimitri@valax.fr
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: https://www.linkedin.com/in/dimitri-valax-01b07b6
-  - title: twitter
-    url: http://twitter.com/dimitrivalax
+    url: https://www.linkedin.com/in/dimitri-valax/
   - title: github
     url: http://github.com/dimitrivalax
 
@@ -55,3 +36,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Su
+contact_form_url: https://usydjvodljnjdviilloe.supabase.co/functions/v1/contact-form
+supabase_anon_key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVzeWRqdm9kbGpuamR2aWlsbG9lIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5OTE5MzgsImV4cCI6MjA5ODU2NzkzOH0.TqzTtO66CLSOkkbjhTv4reQUpPCU5IEj-cSKxERhIp4
